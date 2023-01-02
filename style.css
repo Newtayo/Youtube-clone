@@ -1,0 +1,189 @@
+
+.head_div{
+height: 10vh;
+display: flex;
+width: 100vw;
+flex: 0.5;
+}
+
+
+a {
+display: flex;
+ height: 10vh;
+ width: 2.5vw;
+ margin-right: 2.5vw;
+}
+
+.search{
+    display: flex;
+    height: 5vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    margin-right: 2vw;
+    margin-left: 13vw;
+   
+
+}
+.search> input{
+    border-radius: 93px 130px 95px 105px / 81px 70px 76px 72px;
+    border: 0px;
+    width: 40vw;
+    height: 4.5vh;
+    border: 1px solid #D3D3D3;
+}
+.youtube{
+    margin-left: 1vw;
+    
+}
+.create{
+    background-color: transparent;
+    border: none;
+    margin-left: 7vw;
+    height: 70%;
+
+}
+
+.create> img{
+    height: 120%;
+    width:  120%;
+    padding-top: 1vh;
+
+}
+.notification{
+    background-color: transparent;
+    border: none;
+    margin-left: 0.7vw;
+    height: 70%;
+}
+.notification>img{
+
+    height: 100%;
+    width:  100%;
+    padding-top: 1vh;
+}
+.mic{
+    margin-left: 0.7vw;
+    border-radius: 50%;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #E0E0E0;
+    
+   
+
+}
+.mic > img{
+    align-self: center;
+    justify-self: center;
+    height: 70%;
+    width:  70%;
+}
+button> img{
+object-fit: contain;
+height: 70%;
+width:  70%;
+float: left;
+padding: 0;
+border: 0px;
+
+}
+button{
+    height: 5.1vh;
+    width: 4vw;
+    padding: 0;
+    margin-left: -2.5vw;
+    border: 0px;
+    background-color: #DCDCDC;
+    margin-bottom:  0;
+    border-radius: 24px 202px 175px 0px / 0px 102px 122px 7px;
+    border: 1px solid #D3D3D3;
+    
+    
+    
+}
+.user{
+    background-color: transparent;
+    border: none;
+    margin-left: 0.7vw;
+    height: 70%;
+}
+.user> img{
+    height: 130%;
+    width:  130%;
+    padding-top: 0.5vh;
+    
+}
+.head_container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    
+   
+ 
+}
+.body{
+    width: 55vw;
+    height: 70vh;
+    margin-top: 2vh;
+    margin-left: 6vw;
+}
+.body>iframe{
+    width: 100%;
+    height: 100%;
+}
+.videoCard{
+    height: 70vh;
+    width: 33vw;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.thumbnail{
+    width: 15vw;
+    height: 20vh;
+    margin: 0;
+    border-radius: 5%;
+}
+.info {
+    width: 14vw;
+    height: 20vh;
+    margin-top: 0;
+    
+   
+}
+.info > h4{
+    margin-left: 2vh;
+    margin-bottom: 0.8vh;
+    color: gray;
+    text-align:unset;
+    
+    width: 16.5vw;
+}
+.info > p{
+    margin-top: 0;
+    margin-left: 2vh;
+    margin-bottom: 0.5vh;
+}
+.video{
+
+    width: 33vw;
+    height: 20vh;
+    
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 1vh;
+}
+.channel-date{
+    font-size: smaller;
+    margin-top: 0;
+    
+}
